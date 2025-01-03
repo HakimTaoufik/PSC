@@ -1,7 +1,7 @@
 # Processing Bezier curves for machine learning
 The main file is
 ```
-process.Curves.ipynb
+processCurves.ipynb
 ```
 It contains 3 main algorithms to process the curves :
 1. Uniformal law
@@ -16,3 +16,5 @@ It contains 3 main algorithms to process the curves :
 ## Work to do
 - Test the curvature based algorithm on bezier curves only (a single one, then multiple).
 - Find a work-around for lines and zero/infinite derivatives in the intersection of lines.
+- Add optimised laws (maybe stochastic ones)
+- Test for all curves provided by Louis-Alexis.
